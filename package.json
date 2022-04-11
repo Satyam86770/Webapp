@@ -1,0 +1,23 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd nodemon src/index.js -e js,html,css,json",
+    "test": "env-cmd jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^9.0.3",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
+  }
+}
